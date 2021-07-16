@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /%E2%99%82
+Disallow: /♂
+Disallow: /archives
+Disallow: /categories
+Disallow: /about
+Disallow: /tags
+Disallow: /source
+Disallow: /src
