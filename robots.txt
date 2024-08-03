@@ -1,2 +1,7 @@
-User-agent: *
-Allow: /
+user-agent: *
+allow: /index.html
+allow: /diary.html
+allow: /following.html
+disallow: /guestbook.html
+allow: /about.html
+sitemap: https://zhangjet.com/sitemap.xml
