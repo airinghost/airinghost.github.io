@@ -9,11 +9,11 @@
 <language>zh-CN</language>
 
 <image>
-<url>https://zhangjet.com/favicon.ico</url>
+<url>https://zhangjet.com/favicon.svg</url>
 <title>某好人的日常记录</title>
 <link>https://zhangjet.com/</link>
-<width>240</width>
-<height>240</height>
+<width>36</width>
+<height>36</height>
 </image>
 
 <atom:link href="https://zhangjet.com/rss.xml" rel="self" type="application/rss+xml" />
