@@ -5,3 +5,4 @@ allow: /following.html
 disallow: /guestbook.html
 allow: /about.html
 sitemap: https://zhangjet.com/sitemap.xml
+sitemap: https://jetzhang.com/sitemap.xml
