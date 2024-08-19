@@ -4,5 +4,13 @@
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
 [[redirects]]
 from = "/android-chrome-512x512.png"
-to = "/favicon.png"
+to = "/favicon.svg"
+status = 302
+[[redirects]]
+from = "/favicon.png"
+to = "/favicon.svg"
+status = 302
+[[redirects]]
+from = "/favicon.ico"
+to = "/favicon.svg"
 status = 302

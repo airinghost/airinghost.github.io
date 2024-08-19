@@ -13,7 +13,17 @@
   "redirects": [
     { 
       "source": "/android-chrome-512x512.png", 
-      "destination": "/favicon.png", 
+      "destination": "/favicon.svg", 
+      "permanent": false 
+    },
+    { 
+      "source": "/favicon.png", 
+      "destination": "/favicon.svg", 
+      "permanent": false 
+    },
+    { 
+      "source": "/favicon.ico", 
+      "destination": "/favicon.svg", 
       "permanent": false 
     }
   ]
