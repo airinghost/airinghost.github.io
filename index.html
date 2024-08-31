@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cmn-Hans">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <title>某好人的日常记录</title>
@@ -7,6 +7,7 @@
 <meta name="description" content="我想选择做好人">
 
 <style>
+/* common */
 body {
   max-width: 650px;
   word-break: break-word;
@@ -24,8 +25,6 @@ header, nav, main {
   font-size: 1.375em;
   line-height: 1.5;
   text-align: justify;}
-main {
-  text-align: center;}
 footer {
   font-size: 1.125em;
   line-height: 1.8;}
@@ -44,22 +43,34 @@ nav a, main a, a:visited {
   color: #1558d6;}
 footer a {
   color: #333;}
-main a[href*="//"]::after {
-  content: "\2934";
-  margin: 0 .2em;}
 a:hover {
   background-color:#ddd;}
 span {
   margin-right: .2em;}
 @media (prefers-color-scheme: dark) {
   body {
-	color:#c9d1d9;
-	background: #0d1117;}
-  a:link,a:visited {
-	color: #58a6ff;}       
-  footer a:link {
+    color:#c9d1d9;
+    background: #0d1117;}
+      a:link,a:visited {
+    color: #58a6ff;}       
+      footer a:link {
     color: #c9d1d9;}}
-/* 部分配色取自 https://bestmotherfucking.website/ */
+/* single */
+br {
+  display: block;
+  border-top: 1px solid transparent;
+  content: "";
+  margin-top: .75em;}
+p {
+  border-top: 2px solid;}
+img .emoji {
+  vertical-align: text-bottom; 
+  width: 1.25em;}
+h1, header, nav, main, footer {
+  text-align: center;}
+main a[href*="//"]::after {
+  content: "\27AD";
+  margin: 0 .2em;}
 </style>
 
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%%22 y=%2250%%22 style=%22dominant-baseline:central;text-anchor:middle;font-size:90px;%22>💖</text></svg>" />
@@ -70,54 +81,37 @@ span {
 
 <h1 id="title">某好人的日常记录</h1>
 
-<header>
-  <p>我想选择做好人</p>
-</header>
+<header>我想选择做好人</header>
 
 <nav>
+  <p>
+  <br>
   ～  ／  
   <a href="./diary.html" title="流水账">账簿</a>  ／  
   <a href="./following.html" title="关注列表">星标</a>  ／  
   <a href="./guestbook.html" title="留言簿">访客</a>  ／  
   <a href="./about.html" title="建站记录">其他</a>
-  <hr>
+  </p>
 </nav>
 
 <main>
 
-<hr>
-<p>热忱之心不可泯灭</p>
-<p>人人为我我为人人</p>
-<p>自己的事自己解决</p>
-<p>己所不欲勿施于人</p>
-
-
-<hr>
-<hr>
+<p>
+<br>热忱之心不可泯灭
+<br>人人为我我为人人
+<br>自己的事自己解决
+<br>己所不欲勿施于人
+</p>
 
 </main>
 
 <footer>
 
 <p>
-<span>©</span>
-<span>2024</span>
-<span>ZhangJet.com</span>
 <br>
-<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">
-<span>赣</span>
-<span>ICP</span>
-<span>备</span>
-<span>2021000808</span>
-<span>号</span>
-<span>-2</span>
-</a>
-<br>
-<a href="https://www.dogecloud.com/" target="_blank" rel="noopener">
-<span>由</span>
-<span>多吉云</span>
-<span>提供免费托管</span>
-</a>
+<br>© 2024 ZhangJet.com
+<br><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">赣ICP备2021000808号-2</a>
+<br><a href="https://www.dogecloud.com/" target="_blank" rel="noopener">由多吉云提供免费托管</a>
 </p>
 
 </footer>
