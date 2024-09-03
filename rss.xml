@@ -4,7 +4,7 @@
 <channel>
 
 <title>某好人的日常记录</title>
-<link>https://zhangjet.com</link>
+<link>https://zhangjet.com/</link>
 <description>以书写对抗遗忘</description>
 <language>zh-CN</language>
 
@@ -18,26 +18,18 @@
 
 <atom:link href="https://zhangjet.com/rss.xml" rel="self" type="application/rss+xml" />
 
-<lastBuildDate>Sat, 31 Aug 2024 23:37:00 +0800</lastBuildDate>
-
 <item>
 
 <title>流水账</title>
 <link>https://zhangjet.com/diary.html</link>
 
-<pubDate>Sat, 31 Aug 2024 23:37:00 +0800</pubDate>
-<guid isPermaLink="false">https://zhangjet.com/diary.html#20240831</guid>
+<pubDate>Tue, 03 Sep 2024 13:38:00 +0800</pubDate>
+<guid isPermaLink="false">https://zhangjet.com/diary.html#20240903</guid>
 
 <description>
-&lt;p>8月31号，星期六，七月廿八。&lt;/p>
-&lt;p>21:26。搞了几个小调整：&lt;/p>
-&lt;p>1. 把分割线 hr 标签都给去掉了，换用 ::before 伪元素的方式生成。&lt;/p>
-&lt;p>2. 把除了正文 main 部分外的区域都改成居中。&lt;/p>
-&lt;p>3. 只保留了每篇日记首尾的 p ，其他段落中间的都换成了 br ，方便以后修改每篇日记的样式。&lt;/p>
-&lt;p>4. 留言簿页面去掉了原本 Artalk 页面另存后遗留的 HTML 元素，统一成和日记一样的格式。&lt;/p>
-&lt;p>就是一直搞不清楚，为啥只有首页的 margin-left 和 right 和其他四个页面不一样，电脑上切换的时候看起来很明显。&lt;/p>
-&lt;p>21:45。另外这个天太热了啊。前些天下了会雨凉快多了，晚上吹电扇到早上起床甚至有点冷，但现在又热了起来。&lt;/p>
-&lt;p>22:25。可恶！测试发现对 br 设置的 { display: block; content: ""; margin-bottom: ……} 在 iOS 设备上不支持，导致看起来一团糟，只好把这一条修改复原了。&lt;/p>
+&lt;p>9月3号，星期二，八月初一。&lt;/p>
+&lt;p>13:21。看BB姬昨晚转载的一篇推送，评论区有人说：“不论历经多少物是人非，只有回忆里的人与物最亲切。”也有人说：“如果因为沉湎过去而忽视现在，很快也会错过未来。做好事，孝敬父母，锻炼减肥，练硬笔书法，学一个新技能，玩一直想玩的游戏，什么时候开始都不晚！”&lt;/p>
+&lt;p>时间是过得好快呀。昨天老万找来问 Word 排版的问题，我忽然就想起上次在网易云看见的一条评论，说从小学毕业到上大学只有六年。我从上大学到现在也已经六年多了。&lt;/p>
 </description>
 
 </item>
