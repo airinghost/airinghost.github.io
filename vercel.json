@@ -25,6 +25,31 @@
       "source": "/favicon.ico", 
       "destination": "/favicon.svg", 
       "permanent": false 
+    },
+    { 
+      "source": "/posts/index.xml", 
+      "destination": "/rss.xml", 
+      "permanent": false 
+    },
+    { 
+      "source": "/rss", 
+      "destination": "/rss.xml", 
+      "permanent": false 
+    },
+    { 
+      "source": "/rss/", 
+      "destination": "/rss.xml", 
+      "permanent": false 
+    },
+    { 
+      "source": "/feed", 
+      "destination": "/rss.xml", 
+      "permanent": false 
+    },
+    { 
+      "source": "/feed/", 
+      "destination": "/rss.xml", 
+      "permanent": false 
     }
   ]
 }

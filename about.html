@@ -9,7 +9,7 @@
 <style>
 /* common */
 body {
-  max-width: 650px;
+  max-width: 480px;
   word-break: break-word;
   font-family: STZhongsong, 华文中宋, 
   Iowan Old Style, Cambria, 
@@ -45,8 +45,8 @@ footer a, footer a:visited {
   color: #333;}
 a:hover {
   background-color:#ddd;}
-span {
-  margin-right: .2em;}
+nav, article, footer {
+  border-top: 1px solid;}
 @media (prefers-color-scheme: dark) {
   body {
     color: #c9d1d9;
@@ -55,8 +55,6 @@ span {
     color: #58a6ff;}       
   footer a:link, footer a:visited {
     color: #c9d1d9;}}
-nav, article, footer {
-  border-top: 1px solid;}
 .emoji {
   vertical-align: text-bottom; 
   width: 1.25em;}
@@ -82,57 +80,57 @@ h1, header, nav, footer {
 
 <nav>
   <p>
-  <a href="./" title="某好人的日常记录">～</a>  ／  
-  <a href="./diary.html" title="流水账">账簿</a>  ／  
-  <a href="./following.html" title="关注列表">星标</a>  ／  
-  <a href="./guestbook.html" title="留言簿">访客</a>  ／  其他
+  <a href="/" title="某好人的日常记录">～</a>  ／  
+  <a href="/diary.html" title="流水账">账簿</a>  ／  
+  <a href="/following.html" title="关注列表">星标</a>  ／  
+  <a href="/guestbook.html" title="留言簿">访客</a>  ／  其他
   </p>
 </nav>
 
 <main>
 
 <article>
-<p>该站点始于2019年1月9日的《吃火锅记》。</p>
+<p style="text-align:center;">站点初创</p>
 <p>域名里的 Zhang 是姓氏拼音，Jet 是以前读培训班时从课本词汇表里挑的最短的英文名。最后选的 .COM 是因为它最常用。</p>
+<p>本站始于20190109《吃火锅记》。</p>
 </article>
 
 <article>
-<p>用过的付费 VPS 或者说云服务器：anyNode Vultr 阿里云 腾讯云 华为云。</p>
-<p>用过的免费的 Pages 静态网站托管服务：GitHub Netlify Coding Gitee Vercel Cloudflare。</p>
-<p>目前网站放在 多吉云，境外线路则是在 Netlify。</p>
+<p style="text-align:center;">眼花缭乱</p>
+<p>为了把网站搭起来，用过好多服务。VPS／云服务器有：anyNode、Vultr、阿里云、腾讯云、华为云。</p>
+<p>Pages 静态托管／CDN：GitHub、CODING、Gitee、Netlify、Vercel、Cloudflare、腾讯云、多吉云。</p>
 </article>
 
 <article>
+<p style="text-align:center;">东奔西走</p>
 <p>WordPress 阶段：因为 VPS 面板很多都提供 WP 的一键安装功能，所以我与许多网友的选择一样。主题用的是朴素的 Adams。</p>
-<p>Jekyll 阶段：因为不想再续费 VPS，所以喜欢上免费的 Pages 服务，而 GitHub 和 Gitee Pages 默认就支持 Jekyll。当时有两款主题挺喜欢，分别叫 HardCandy 和 TMaize，可是配置文件看不懂，只能乱搞一通</p>
-<p>Hexo 阶段：主题仍与很多人一样选择了 NexT。但后来我觉着它顶部的导航栏每次都要点击下拉，这个操作在移动端上实在繁琐；又恰巧在 MoeCraft 的用户中心网站页脚看见了 Icarus 主题的链接，点进去瞧瞧发现很好看！于是果断换之，胡乱删改样式，用了两年</p>
+<p>Jekyll 阶段：因为不想再续费 VPS，所以喜欢上免费的 Pages 服务，而 GitHub 和 Gitee Pages 默认就支持 Jekyll。当时有两款主题挺喜欢，分别叫 HardCandy 和 TMaize，可是配置文件看不懂，只能乱搞一通，遂放弃，转向 Hexo。</p>
+<p>Hexo 阶段：主题仍与很多人一样选择了 NexT。但后来我觉着它顶部的导航栏每次都要点击下拉，这个操作在移动端上实在繁琐；又恰巧在 MoeCraft 的用户中心网站页脚看见了 Icarus 主题的链接，点进去瞧瞧发现很好看！于是果断换之，胡乱删改样式，用了两年。缺点就是生成有点慢。</p>
 <p>Hugo 阶段：确实快！而且只需一个可执行文件，没有厚重的 node_modules。刚开始准备用时，看中了一款叫 Stack 的主题，但在移动端上它也不能直接显示导航栏，也得点击下拉，而且模板看不懂、改不动，所以继续用 Hexo。之后想了想，反正 Icarus 也手动改过，与其老是删改缝补，不如根据改过的样式自己撸一个 Hugo 主题吧。说干就干，边敲键盘边看文档边调试，鼓捣出一个简陋的 Icarus-Lite 也放在了 GitHub 上。</p>
+<p>最后（目前）是认祖归宗，手打 HTML。</p>
 </article>
 
 <article>
-<p>折腾 Hexo 的初期，用过 Coding 的 CI 功能来更新博客，但它反复改版，就没有再用。Hexo 后期以及 Hugo 前期用上了 GitHub Actions，更方便了，用手机浏览器就可以打开适应屏幕窗口的 GitHub 在线编辑器。</p>
-<p>目前是回到了 HTML 纯手打阶段。</p>
-</article>
-
-<article>
-<p>LOGO：原本用的是我在手机备忘录随手描了几笔的笑脸，觉得很有趣就留了下来。但源文件后来弄丢了，截图又很糊，所以现在直接简单地用了一个 Emoji 💖</p>
+<p style="text-align:center;">怦然心动</p>
+<p>LOGO 原本用的是我在手机备忘录随手描了几笔的笑脸，觉得很有趣就留了下来。但源文件后来弄丢了，截图又很糊，所以现在直接简单地用了一个 Emoji 💖</p>
 <p>如果要外链的话，可以引用网站根目录下的 <a href="./favicon.svg">favicon.svg</a></p>
 </article>
 
 <article>
-<p>RSS：之前根据 @Xing 同学的建议，通过 Hugo 添加过 RSS 订阅，但之后没有再用 Hugo，所以订阅暂时消失了好久～ 最后在 @Melatonin 同学的关心<del>催促</del>下， RSS 订阅又上线了！</p>
-<p>访问网站根目录下的 <a href="./rss.xml">rss.xml</a> 就行。</p>
+<p style="text-align:center;">时刻关注</p>
+<p>之前根据 @Xing 同学的建议，通过 Hugo 内置的 RSS 模板添加过订阅功能，但之后没有再用 Hugo，所以订阅暂时消失了好久～</p>
+<p>最后在 @Melatonin 同学的关心<del>催促</del>下， RSS 订阅又上线了！访问网站根目录下的 <a href="./rss.xml">rss.xml</a> 即可。</p>
 </article>
 
-<article>
-<p>性能俱乐部：</p>
+<article style="text-align:center;">
+<p>性能提升</p>
 <p><a href="https://1mb.club/" target="_blank" rel="noopener" title="1MB Club">1MB Club</a> ／ 
 <a href="https://512kb.club/" target="_blank" rel="noopener" title="512KB Club">512KB Club</a></p>
 <p><a href="https://no-js.club/" target="_blank" rel="noopener" title="NO-JS Club">NO-JS Club</a></p>
 </article>
 
-<article>
-<p>博客收集：</p>
+<article style="text-align:center;">
+<p>博客收集</p>
 <p><a href="https://www.foreverblog.cn/" target="_blank" rel="noopener" title="十年之约">十年之约</a> ／ 
 <a href="https://ourblo.gs/" target="_blank" rel="noopener" title="OurBlogs">OurBlogs</a></p>
 </article>

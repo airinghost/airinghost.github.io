@@ -1,3 +1,8 @@
-/android-chrome-512x512.png /favicon.svg 307
-/favicon.png /favicon.svg 307
-/favicon.ico /favicon.svg 307
+/android-chrome-512x512.png /favicon.svg 302
+/favicon.png /favicon.svg 302
+/favicon.ico /favicon.svg 302
+/posts/index.xml /rss.xml 302
+/rss /rss.xml 302
+/rss/ /rss.xml 302
+/feed /rss.xml 302
+/feed/ /rss.xml 302

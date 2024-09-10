@@ -14,3 +14,23 @@ status = 302
 from = "/favicon.ico"
 to = "/favicon.svg"
 status = 302
+[[redirects]]
+from = "/posts/index.xml"
+to = "/rss.xml"
+status = 302
+[[redirects]]
+from = "/rss"
+to = "/rss.xml"
+status = 302
+[[redirects]]
+from = "/rss/"
+to = "/rss.xml"
+status = 302
+[[redirects]]
+from = "/feed"
+to = "/rss.xml"
+status = 302
+[[redirects]]
+from = "/feed/"
+to = "/rss.xml"
+status = 302
