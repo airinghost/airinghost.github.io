@@ -50,6 +50,41 @@
       "source": "/feed/", 
       "destination": "/rss.xml", 
       "permanent": false 
+    },
+    { 
+      "source": "/collection/", 
+      "destination": "/", 
+      "permanent": true 
+    },
+    { 
+      "source": "/collections/", 
+      "destination": "/", 
+      "permanent": true 
+    },
+    { 
+      "source": "/copies/", 
+      "destination": "/", 
+      "permanent": true 
+    },
+    { 
+      "source": "/me/", 
+      "destination": "/about.html", 
+      "permanent": true 
+    },
+    { 
+      "source": "/notes/", 
+      "destination": "/", 
+      "permanent": true 
+    },
+    { 
+      "source": "/page/", 
+      "destination": "/", 
+      "permanent": true 
+    },
+    { 
+      "source": "/posts/", 
+      "destination": "/", 
+      "permanent": true 
     }
   ]
 }

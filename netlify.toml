@@ -34,3 +34,31 @@ status = 302
 from = "/feed/"
 to = "/rss.xml"
 status = 302
+[[redirects]]
+from = "/collection/"
+to = "/"
+status = 301
+[[redirects]]
+from = "/collections/"
+to = "/"
+status = 301
+[[redirects]]
+from = "/copies/"
+to = "/"
+status = 301
+[[redirects]]
+from = "/me/"
+to = "/about.html"
+status = 301
+[[redirects]]
+from = "/notes/"
+to = "/"
+status = 301
+[[redirects]]
+from = "/page/"
+to = "/"
+status = 301
+[[redirects]]
+from = "/posts/"
+to = "/"
+status = 301
