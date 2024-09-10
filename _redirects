@@ -6,10 +6,10 @@
 /rss/ /rss.xml 302
 /feed /rss.xml 302
 /feed/ /rss.xml 302
-/collection/ / 301
-/collections/ / 301
-/copies/ / 301
+/collection/ /following.html 301
+/collections/ /following.html 301
+/copies/ /following.html 301
 /me/ /about.html 301
-/notes/ / 301
-/page/ / 301
-/posts/ / 301
+/notes/ /diary.html 301
+/page/ /diary.html 301
+/posts/ /diary.html 301

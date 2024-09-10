@@ -36,15 +36,15 @@ to = "/rss.xml"
 status = 302
 [[redirects]]
 from = "/collection/"
-to = "/"
+to = "/following.html"
 status = 301
 [[redirects]]
 from = "/collections/"
-to = "/"
+to = "/following.html"
 status = 301
 [[redirects]]
 from = "/copies/"
-to = "/"
+to = "/following.html"
 status = 301
 [[redirects]]
 from = "/me/"
@@ -52,13 +52,13 @@ to = "/about.html"
 status = 301
 [[redirects]]
 from = "/notes/"
-to = "/"
+to = "/diary.html"
 status = 301
 [[redirects]]
 from = "/page/"
-to = "/"
+to = "/diary.html"
 status = 301
 [[redirects]]
 from = "/posts/"
-to = "/"
+to = "/diary.html"
 status = 301

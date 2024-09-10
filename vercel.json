@@ -53,17 +53,17 @@
     },
     { 
       "source": "/collection/", 
-      "destination": "/", 
+      "destination": "/following.html", 
       "permanent": true 
     },
     { 
       "source": "/collections/", 
-      "destination": "/", 
+      "destination": "/following.html", 
       "permanent": true 
     },
     { 
       "source": "/copies/", 
-      "destination": "/", 
+      "destination": "/following.html", 
       "permanent": true 
     },
     { 
@@ -73,17 +73,17 @@
     },
     { 
       "source": "/notes/", 
-      "destination": "/", 
+      "destination": "/diary.html", 
       "permanent": true 
     },
     { 
       "source": "/page/", 
-      "destination": "/", 
+      "destination": "/diary.html", 
       "permanent": true 
     },
     { 
       "source": "/posts/", 
-      "destination": "/", 
+      "destination": "/diary.html", 
       "permanent": true 
     }
   ]
