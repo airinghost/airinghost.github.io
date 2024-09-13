@@ -7,7 +7,6 @@
 <meta name="description" content="我想选择做好人">
 
 <style>
-/* common */
 body {
   max-width: 480px;
   word-break: break-word;
@@ -25,9 +24,6 @@ header, nav, main {
   font-size: 1.375em;
   line-height: 1.5;
   text-align: justify;}
-footer {
-  font-size: 1.125em;
-  line-height: 1.8;}
 h1, h2, h3 {
   line-height: 1.2;}
 h1 {
@@ -36,34 +32,47 @@ h2 {
   font-size: 1.875em;}
 h3 {
   font-size: 1.5em;}
+h1, header, nav, footer {
+  text-align: center;}
 a {
   cursor: pointer;
   text-decoration: none;}
-nav a, main a, a:visited {
-  color: #1558d6;}
-footer a, footer a:visited {
-  color: #333;}
 a:hover {
   background-color:#ddd;}
-nav, article, footer {
-  border-top: 1px solid;}
+a:link, a:visited {
+  color: #1558d6;}
+footer {
+  font-size: 1.125em;
+  line-height: 1.8;}
+footer a:link, footer a:visited {
+  color: #333;}
+.emoji {
+  vertical-align: text-bottom;
+  width: 1.25em;}
+article, footer {
+  border-top: 1px solid #333;}
+/* dark mode: horizontal line */
 @media (prefers-color-scheme: dark) {
-  body {
-    color: #c9d1d9;
-    background: #0d1117;}
+  body, article {
+    background: #0d1117;
+    color: #c9d1d9;}
+  article, footer {
+    border-top: 1px solid #c9d1d9;}
+  article {
+    border-radius: unset;
+    margin: unset;
+    padding: unset;}
+  article:hover {
+    box-shadow: unset;}
   a:link, a:visited {
-    color: #58a6ff;}       
+    color: #58a6ff;}
   footer a:link, footer a:visited {
     color: #c9d1d9;}}
-.emoji {
-  vertical-align: text-bottom; 
-  width: 1.25em;}
-/* single */
+</style>
+<style>
 main a[href*="//"]::before {
   content: "\27AD";
   margin: 0 .2em;}
-h1, header, nav, main, footer {
-  text-align: center;}
 </style>
 
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%%22 y=%2250%%22 style=%22dominant-baseline:central;text-anchor:middle;font-size:90px;%22>💖</text></svg>" />
@@ -84,11 +93,11 @@ h1, header, nav, main, footer {
   <a href="/diary.html" title="流水账">账簿</a>  ／  
   <a href="/following.html" title="关注列表">星标</a>  ／  
   <a href="/guestbook.html" title="留言簿">访客</a>  ／  
-  <a href="/about.html" title="建站记录">其他</a>
+  <a href="/about.html" title="建站记录">我</a>
   </p>
 </nav>
 
-<main>
+<main style="text-align: center;">
 
 <article>
 <p>热忱之心不可泯灭</p>

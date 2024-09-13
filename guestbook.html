@@ -7,7 +7,6 @@
 <meta name="description" content="感谢一路有你～">
 
 <style>
-/* common */
 body {
   max-width: 480px;
   word-break: break-word;
@@ -25,9 +24,6 @@ header, nav, main {
   font-size: 1.375em;
   line-height: 1.5;
   text-align: justify;}
-footer {
-  font-size: 1.125em;
-  line-height: 1.8;}
 h1, h2, h3 {
   line-height: 1.2;}
 h1 {
@@ -36,34 +32,54 @@ h2 {
   font-size: 1.875em;}
 h3 {
   font-size: 1.5em;}
+h1, header, nav, footer {
+  text-align: center;}
 a {
   cursor: pointer;
   text-decoration: none;}
-nav a, main a, a:visited {
-  color: #1558d6;}
-footer a, footer a:visited {
-  color: #333;}
 a:hover {
   background-color:#ddd;}
-nav, article, footer {
-  border-top: 1px solid;}
+a:link, a:visited {
+  color: #1558d6;}
+footer {
+  font-size: 1.125em;
+  line-height: 1.8;}
+footer a:link, footer a:visited {
+  color: #333;}
+.emoji {
+  vertical-align: text-bottom;
+  width: 1.25em;}
+/* light mode: flomo card style */
+article {
+  background-color: #fff;
+  border-radius: 6px;
+  margin: 1em 0;
+  padding: .5em 1em;
+  word-wrap: break-word;}
+article:hover {
+  box-shadow: 0px 2px 10px #ddd;}
+/* dark mode: horizontal line */
 @media (prefers-color-scheme: dark) {
-  body {
-    color: #c9d1d9;
-    background: #0d1117;}
+  body, article {
+    background: #0d1117;
+    color: #c9d1d9;}
+  nav, article, footer {
+    border-top: 1px solid #c9d1d9;}
+  article {
+    border-radius: unset;
+    margin: unset;
+    padding: unset;}
+  article:hover {
+    box-shadow: unset;}
   a:link, a:visited {
-    color: #58a6ff;}       
+    color: #58a6ff;}
   footer a:link, footer a:visited {
     color: #c9d1d9;}}
-.emoji {
-  vertical-align: text-bottom; 
-  width: 1.25em;}
-/* single */
+</style>
+<style>
 main a::before {
   content: "\27AD";
   margin: 0 .2em;}
-h1, header, nav, footer {
-  text-align: center;}
 main p {
   margin-left: 1em;
   margin-right: 1em;}
@@ -88,14 +104,15 @@ main p a.ref {
   <a href="/" title="某好人的日常记录">～</a>  ／  
   <a href="/diary.html" title="流水账">账簿</a>  ／  
   <a href="/following.html" title="关注列表">星标</a>  ／  访客  ／  
-  <a href="/about.html" title="建站记录">其他</a>
+  <a href="/about.html" title="建站记录">我</a>
   </p>
 </nav>
 
 <main>
 
 <article>
-<p style="margin-left: 0;">现在用<a target="_blank" rel="noopener" href="https://users3.smartgb.com/g/g.php?a=s&amp;i=g36-36787-50">第三方留言板</a>，但是它不稳定，有时候打不开。所以也可以向 @outlook.com 发送邮件联系我，我的用户名是 moegay</p>
+<p style="margin-left: 0;">可以在<a target="_blank" rel="noopener" href="https://users3.smartgb.com/g/g.php?a=s&amp;i=g36-36787-50">第三方留言板</a> 留言
+  <br>或向 @outlook.com 发送邮件联系我（我的用户名是 moegay ）</p>
 <p style="margin-left: 0;">下面是所有留言的存档。</p>
 </article>
 
@@ -1943,12 +1960,11 @@ main p a.ref {
 </main>
 
 <footer>
-
 <br>
 <p>© 2024 ZhangJet.com</p>
 <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">赣ICP备2021000808号-2</a></p>
 <p><a href="https://www.dogecloud.com/" target="_blank" rel="noopener">由多吉云提供免费托管</a></p>
-
+<br>
 </footer>
 
 </body>
