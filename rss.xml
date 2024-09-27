@@ -5,8 +5,18 @@
 
 <title>某好人的日常记录</title>
 <link>https://zhangjet.com/</link>
-<description>以书写对抗遗忘</description>
+<description>feedId:62414143973072896+userId:60214978092138496</description>
 <language>zh-CN</language>
+
+<follow_challenge>
+    <feedId>62414143973072896</feedId>
+    <userId>60214978092138496</userId>
+</follow_challenge>
+
+<follow_challenge>
+    <feed_id>62414143973072896</feed_id>
+    <user_id>60214978092138496</user_id>
+</follow_challenge>
 
 <image>
 <url>https://zhangjet.com/favicon.svg</url>
