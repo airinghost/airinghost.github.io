@@ -19,18 +19,27 @@
 <atom:link href="https://zhangjet.com/rss.xml" rel="self" type="application/rss+xml" />
 
 <item>
-
 <title>流水账</title>
 <link>https://zhangjet.com/diary.html</link>
+<pubDate>Sat, 28 Sep 2024 22:16:00 +0800</pubDate>
+<guid isPermaLink="false">https://zhangjet.com/diary.html#20240928</guid>
+<description>
+&lt;p>9月28号，星期六，八月廿六。&lt;/p>
+&lt;p>21:39。昨天给手机更新了 HyperOS，除了安卓大版本升到了14，其他变化感觉、目测不是很大。受不了的一点就是常驻状态栏的通知如果在一段时间内没有活跃（例如广告跳过软件 GKD），则会被自动折叠起来统一放在“历史通知”栏里。&lt;/p>
+&lt;p>21:53。给父亲买的 Mate 60 今晚拆封换机，花了几个小时调各种设置，受不了的一点就是负一屏居然不能完全关闭！哪怕功能全给关了还是会留个空白的页面在那。另外微信聊天记录迁移功能真的好慢。&lt;/p>
+&lt;p>22:08。昨晚和 Tom 约好要把《元气骑士》打到关卡 10-5，结果到了 9-1 后实在太困，只好睡之，今早还要早起出门呢。中午回来午饭后，倒头就睡一个小时，又精力满满。醒来后继续昨晚的进度，结果 10-1 就挂了…… 这里面的“陌刀”算是蛮好用的一把武器，但缺点实在很明显。&lt;/p>
+</description>
+</item>
 
+<item>
+<title>流水账</title>
+<link>https://zhangjet.com/diary.html</link>
 <pubDate>Fri, 27 Sep 2024 19:19:00 +0800</pubDate>
 <guid isPermaLink="false">https://zhangjet.com/diary.html#20240927</guid>
-
 <description>
 &lt;p>9月27号，星期五，八月廿五。&lt;/p>
 &lt;p>19:08。前些日子看大家经常讨论新出的 RSS 软件: Follow，本打算等开放公测再试试，但是今天碰巧黄大大直接分享了邀请码，我便顺了过来，也算是提前用上了。功能挺多，且待一试。而且搞笑的是，由于本站境内外分区解析，导致我在 Follow 上认证本站的订阅所有权时，修改的内容一直刷新不出，所以一直失败，懵了十多分钟才反应过来问题所在。&lt;/p>
 </description>
-
 </item>
 
 </channel>
