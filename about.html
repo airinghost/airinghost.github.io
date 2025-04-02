@@ -5,17 +5,25 @@
 <title>建站记录</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="磕磕绊绊">
-
 <style>
+@font-face {
+  font-family: "WenQuanYi Bitmap Song 12px";
+  src: local("WenQuanYi Bitmap Song 12px"), local("文泉驿点阵宋体12px"),
+  url("/12px.woff2") format('woff2');}
 body {
-  max-width: 600px;
-  word-break: break-word;
-  font-family: STZhongsong, 华文中宋, 
+  font-family: 
+  文泉驿点阵宋体12px, "WenQuanYi Bitmap Song 12px", 
+  华文中宋, STZhongsong, 
   Iowan Old Style, Cambria, 
   PingFang SC, PingFang, Microsoft YaHei, 
   -apple-system,  BlinkMacSystemFont, serif, 
   "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, 
-  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";}
+</style>
+<style>
+body {
+  max-width: 600px;
+  word-break: break-word;
   color: #333;
   background: #f5f5f5;
   margin: 2em auto;
@@ -122,7 +130,7 @@ main a[href*="//"]::before {
 <p>Jekyll 阶段：因为不想再续费 VPS，所以喜欢上免费的 Pages 服务，而 GitHub 和 Gitee Pages 默认就支持 Jekyll。当时有两款主题挺喜欢，分别叫 HardCandy 和 TMaize，可是配置文件看不懂，只能乱搞一通，遂放弃，转向 Hexo。</p>
 <p>Hexo 阶段：主题仍与很多人一样选择了 NexT。但后来我觉着它顶部的导航栏每次都要点击下拉，这个操作在移动端上实在繁琐；又恰巧在 MoeCraft 的用户中心网站页脚看见了 Icarus 主题的链接，点进去瞧瞧发现很好看！于是果断换之，胡乱删改样式，用了两年。缺点就是生成有点慢。</p>
 <p>Hugo 阶段：确实快！而且只需一个可执行文件，没有厚重的 node_modules。刚开始准备用时，看中了一款叫 Stack 的主题，但在移动端上它也不能直接显示导航栏，也得点击下拉，而且模板看不懂、改不动，所以继续用 Hexo。之后想了想，反正 Icarus 也手动改过，与其老是删改缝补，不如根据改过的样式自己撸一个 Hugo 主题吧。说干就干，边敲键盘边看文档边调试，鼓捣出一个简陋的 Icarus-Lite 也放在了 GitHub 上。</p>
-<p>最后（目前）是手打 HTML。</p>
+<p>最后（目前）是手打 HTML，修改灵感部分来自 flomo。网页字体使用了“文泉驿点阵宋体12px”。</p>
 </article>
 
 <article>
